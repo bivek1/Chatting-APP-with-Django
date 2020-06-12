@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+
+
+{% block main %}
+            <div class="container">
+                {% if user.username == 'ronash' %}
+                    {%include  "chatbib.html"%}
+                {% else %}
+                    {%include "chat2.html"%}
+                {% endif %}
+            </div>
+{% endblock main %}
+    

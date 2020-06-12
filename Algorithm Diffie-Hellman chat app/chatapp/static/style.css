@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
+.navbar-maintain{
+    height: 60px;
+}
+.login_class{
+    background-color: ghostwhite;
+    border-radius: 22px;
+}
+.login_maintain{
+    padding: 30px 60px;
+    background-color: ghostwhite;
+}
+.iconsa img{
+    height: 200px;
+    width: 200px;
+}
+.chatbox{
+    height: 550px;
+    width: 100%;
+}
+.chatshowing{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    border: solid 2px orange;
+    display: inline-flex;
+    overflow: scroll;
+}
+.chatsection{
+    height: 300px;
+    width: 100%;
+    background-color: papayawhip;
+    display: inline-flex;
+    overflow: scroll;
+}
+.chatreceive{
+    float: left;
+    width: 45%;
+}
+.chatsend{
+    float: right;
+    width: 45%;
+    text-align: end;
+}
+.textareaforchat{
+    height: 100px;
+    width: 100%;
+}
+.space{
+    width: 10%;
+}
+.all{
+    background-color: powderblue;
+    margin-top: 10px;
+    width: auto;
+}
